@@ -1,0 +1,135 @@
+
+.container{
+    margin:0px 0px 136px 136px;
+}
+.Header-title{
+height: 36px;
+left: 9.44%;
+right: 58.06%;
+top: 1132px;
+margin-bottom:16px;
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+color:black;
+
+
+
+}
+.header-desciption{
+width: 468px;
+height: 20px;
+margin-bottom:40px;
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+}
+
+.card{
+    /* Frame 98 */
+
+
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 24px;
+gap: 16px;
+
+width: 268px;
+height: 196px;
+
+/* Neutral/02 */
+
+border: 1px solid #D0D0D0;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.card img{
+    /* icon_complete */
+
+
+width: 32px;
+height: 32px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.card-description{
+    /* Mobil Lengkap */
+
+
+width: 113px;
+height: 24px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.Card-Detail{
+    /* Tersedia banyak pilihan mobil, kondisi masih baru, bersih dan terawat */
+
+
+width: 220px;
+height: 60px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+.card-container{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+    height: 196px;
+width: 1168px;
+left: 136px;
+top: 1244px;
+border-radius: 0px;
+
+}
