@@ -1,0 +1,49 @@
+.button{
+width: 1168px;
+height: 326px;
+left: 136px;
+top: 2078px;
+background: #0D28A6;
+border-radius: 13px;
+padding: 64px;
+}
+.button-title{
+color: #FFFFFF;
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 150%;
+text-align: center;
+}
+.button-desk{
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+text-align: center;
+color: #FFFFFF;
+}
+.button-click{
+padding: 8px 12px;
+gap: 10px;
+border-radius: 2px;
+width: 140px;
+height: 36px;
+left: 650px;
+top: 2304px;
+background: #5CB85F;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+span{
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+color: #FFFFFF;
+}
