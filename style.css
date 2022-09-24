@@ -1,0 +1,109 @@
+.container{
+    width: 1027px;
+height: 428px;
+left: 206px;
+top: 604px;
+display: flex;
+flex-direction: row;
+margin-left:206px;
+margin-right:207px;
+}
+.container img{
+    margin-right:86px;
+}
+.Container-Desc{
+/* desc */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 468px;
+height: 376px;
+left: 765px;
+top: 640px;
+margin-left:100px;
+
+}
+.title-desc{
+    width: 468px;
+height: 72px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+
+/* or 150% */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.detail-desc{
+    
+width: 468px;
+height: 80px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+
+/* or 143% */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.card-list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 309px;
+    height: 184px;
+    flex: none;
+      flex-grow: 0;
+    order: 1;
+    flex-grow: 0;
+}
+.desc-list{
+/* Sewa Mobil Dengan Supir di Bali 12 Jam */
+
+width: 269px;
+height: 20px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+
+/* identical to box height, or 143% */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.card img{
+    margin-right:8px;
+}
