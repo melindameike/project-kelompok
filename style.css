@@ -75,8 +75,8 @@ flex-grow: 0;
     /* Mobil Lengkap */
 
 
-width: 113px;
-height: 24px;
+width: 100%;
+height: auto;
 
 font-family: 'Arial';
 font-style: normal;
@@ -99,8 +99,8 @@ flex-grow: 0;
     /* Tersedia banyak pilihan mobil, kondisi masih baru, bersih dan terawat */
 
 
-width: 220px;
-height: 60px;
+width: 100%;
+height: auto;
 
 font-family: 'Arial';
 font-style: normal;
@@ -118,6 +118,7 @@ color: #000000;
 flex: none;
 order: 2;
 flex-grow: 0;
+margin:0 auto;
 }
 .card-container{
     display: flex;
