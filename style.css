@@ -1,49 +1,73 @@
-.button{
-width: 1168px;
-height: 326px;
-left: 136px;
-top: 2078px;
-background: #0D28A6;
-border-radius: 13px;
-padding: 64px;
-}
-.button-title{
-color: #FFFFFF;
-font-family: 'Arial';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 150%;
-text-align: center;
-}
-.button-desk{
-font-family: 'Arial';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 20px;
-text-align: center;
-color: #FFFFFF;
-}
-.button-click{
-padding: 8px 12px;
-gap: 10px;
-border-radius: 2px;
-width: 140px;
-height: 36px;
-left: 650px;
-top: 2304px;
-background: #5CB85F;
+.container{
 display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+width: 668px;
+height: 344px;
+left: 636px;
+top: 2504px;
+margin: 0px 136px 0px 136px;
 }
-span{
+
+.container2{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+width: 668px;
+height: 344px;
+left: 636px;
+top: 2504px;
+
+}
+.feq-title{
+height: 36px;
+left: 9.44%;
+right: 65%;
+top: 2508px;
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+color: #000000;
+}
+.feq-desk{
+width: 100%;
+height: auto;
+left: 136px;
+top: 2560px;
 font-family: 'Arial';
 font-style: normal;
 font-weight: 700;
 font-size: 14px;
 line-height: 20px;
-color: #FFFFFF;
+color: #000000;
+
+}
+.card{
+box-sizing: border-box;
+position: absolute;
+width: 668px;
+height: 56px;
+left: 0px;
+top: 0px;
+background: #FFFFFF;
+border: 1px solid #D4D4D4;
+border-radius: 4px;
+}
+.card-description{
+width: 228px;
+height: 20px;
+left: 24px;
+top: 18px;
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+color: #000000;
 }
